@@ -1,6 +1,6 @@
 pragma solidity ^0.5.6;
 
-contract ERC20Interface {
+interface ERC20Interface {
     function transfer(address to, uint tokens) public returns (bool success);
     function transferFrom(address from, address to, uint tokens) public returns (bool success);
     function balanceOf(address tokenOwner) public view returns (uint balance);
